@@ -48,7 +48,7 @@ function verificarChute(){
 // CRIANDO FUNÇÃO PARA CRIAR NUMERO ALEATORIO USANDO RETURN
 
 function gerarNumeroAleatorio() {
-    numeroMaximo = 3
+    numeroMaximo = 100
     let numeroEscolhido = parseInt(Math.random() * numeroMaximo + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
     if (quantidadeDeElementosNaLista == numeroMaximo){
